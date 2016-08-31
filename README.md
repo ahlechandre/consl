@@ -19,7 +19,7 @@ cd consl
 ## Usage
 
 ```js
-const { cl, cw, ce } = require('./index');
+const { cl, cw, ce } = require('consl');
 // Or using ES2015 imports if you come from the future:
 // import { cl, cw, ce } from 'consl';
 
