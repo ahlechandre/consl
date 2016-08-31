@@ -19,7 +19,9 @@ cd consl
 ## Usage
 
 ```js
-import { cl, cw, ce } from 'consl';
+const { cl, cw, ce } = require('consl');
+// Or using ES2015 imports if you come from the future:
+// import { cl, cw, ce } from 'consl';
 
 cl('Outputs a message to the Console.');
 cw('Outputs a warn message to the Console.');
