@@ -19,12 +19,17 @@ cd consl
 ## Usage
 
 ```js
-const { cl, cw, ce } = require('consl');
+const { cl, cw, ce } = require('./index');
 // Or using ES2015 imports if you come from the future:
 // import { cl, cw, ce } from 'consl';
 
+// console.log
 cl('Outputs a message to the Console.');
+cl('First', 'Second', 'Third');
+cl([1, 2, 3, 4], { a: 1, b: 2, c: 3 });
+// console.warn
 cw('Outputs a warn message to the Console.');
+// console.error
 ce('Outputs a error message to the Console.');
 ```
 
