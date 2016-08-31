@@ -1,0 +1,28 @@
+{
+  "name": "consl",
+  "version": "1.0.0",
+  "description": "A javascript module that abbreviates the Console methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahlechandre/consl.git"
+  },
+  "keywords": [
+    "console",
+    "console methods",
+    "log",
+    "abbreviation",
+    "console.log",
+    "console.warn",
+    "console.error"
+  ],
+  "author": "Alexandre Thebaldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahlechandre/consl/issues"
+  },
+  "homepage": "https://github.com/ahlechandre/consl#readme"
+}
